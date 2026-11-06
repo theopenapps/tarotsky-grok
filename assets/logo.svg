@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Tarot Sky: a crescent Moon and a star inside a chart wheel (tarot read against the sky). -->
+  <defs><mask id="crescent"><rect width="512" height="512" fill="#fff"/><circle cx="292" cy="226" r="88" fill="#000"/></mask></defs>
+  <rect width="512" height="512" fill="#231A5C"/>
+  
+  <circle cx="256" cy="256" r="184" fill="none" stroke="#E2BD63" stroke-width="12"/>
+  <circle cx="256" cy="256" r="152" fill="none" stroke="#E2BD63" stroke-width="5" stroke-opacity=".6"/>
+  <g stroke="#E2BD63" stroke-width="5" stroke-opacity=".6" stroke-linecap="round"><line x1="256" y1="104" x2="256" y2="72"/><line x1="332" y1="124.4" x2="348" y2="96.7"/><line x1="387.6" y1="180" x2="415.3" y2="164"/><line x1="408" y1="256" x2="440" y2="256"/><line x1="387.6" y1="332" x2="415.3" y2="348"/><line x1="332" y1="387.6" x2="348" y2="415.3"/><line x1="256" y1="408" x2="256" y2="440"/><line x1="180" y1="387.6" x2="164" y2="415.3"/><line x1="124.4" y1="332" x2="96.7" y2="348"/><line x1="104" y1="256" x2="72" y2="256"/><line x1="124.4" y1="180" x2="96.7" y2="164"/><line x1="180" y1="124.4" x2="164" y2="96.7"/></g>
+  <circle cx="240" cy="266" r="104" fill="#F7ECD2" mask="url(#crescent)"/>
+  <g fill="#F7ECD2"><polygon points="318,166 325.1,198.9 358,206 325.1,213.1 318,246 310.9,213.1 278,206 310.9,198.9"/></g>
+  <g fill="#F7ECD2" fill-opacity=".85"><circle cx="352" cy="292" r="7"/><circle cx="196" cy="160" r="5"/></g>
+</svg>
